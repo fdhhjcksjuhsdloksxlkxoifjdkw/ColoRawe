@@ -1,20 +1,32 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-* {
+/* ========================
+   BASIC STYLES & FONTS
+   ======================== */
+
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+   * {
        margin: 0;
        padding: 0;
        box-sizing: border-box;
        font-family: 'Montserrat', sans-serif;
    }
+   
    body {
        background: linear-gradient(180deg, #0A043C, #0B1E69);
        color: white;
        text-align: center;
    }
+   
    .container {
        width: 80%;
        margin: 0 auto;
        padding: 20px 0;
    }
+   
+   /* ========================
+      HEADER & NAVIGATION
+      ======================== */
+   
    .header {
        background: rgba(0, 0, 0, 0.3);
        padding: 15px 0;
@@ -23,34 +35,44 @@
        top: 0;
        z-index: 1000;
    }
+   
    .nav {
        display: flex;
        justify-content: center;
        gap: 20px;
    }
+   
    .nav-link {
        color: white;
        text-decoration: none;
        font-size: 16px;
        transition: color 0.3s;
    }
+   
    .nav-link:hover {
        color: #FF4DFF;
    }
-  
+   
+   /* ========================
+      HERO SECTION
+      ======================== */
+   
    .main-section {
        padding-top: 100px;
        text-align: center;
    }
+   
    .hero-title {
        font-size: 48px;
        font-weight: 700;
        color: #FF4DFF;
    }
+   
    .main-text {
        font-size: 18px;
        margin: 10px 0;
    }
+   
    .main-button {
        background: #FF4DFF;
        border: none;
@@ -61,98 +83,86 @@
        border-radius: 25px;
        transition: background 0.3s;
    }
+   
    .main-button:hover {
        background: #C700FF;
    }
+   
+   /* ========================
+      FEATURES SECTION
+      ======================== */
+   
    .features {
        display: flex;
        justify-content: space-around;
        margin-top: 40px;
    }
+   
    .feature-box {
        background: rgba(255, 255, 255, 0.1);
        padding: 20px;
        border-radius: 10px;
        transition: transform 0.3s;
    }
+   
    .feature-box:hover {
        transform: scale(1.05);
    }
+   
+   /* ========================
+      REVIEWS SECTION
+      ======================== */
+   
    .reviews {
        margin-top: 50px;
        background: rgba(255, 255, 255, 0.1);
        padding: 40px 0;
    }
+   
    .review-card {
        background: rgba(0, 0, 0, 0.5);
        padding: 20px;
        border-radius: 10px;
        margin: 10px;
    }
-  .order-form {
+   
+   /* ========================
+      ORDER FORM
+      ======================== */
+   
+   .order-form {
        margin-top: 50px;
    }
-    input {
+   
+   input {
        width: 80%;
        padding: 10px;
        margin: 10px 0;
        border-radius: 5px;
        border: none;
-   }button {
+   }
+   
+   button {
        background: #FF4DFF;
        padding: 12px 24px;
        border-radius: 25px;
        color: white;
        font-size: 18px;
        cursor: pointer;
-       transition: background;
+       transition: background 0.3s;
    }
-    button:hover {
+   
+   button:hover {
        background: #C700FF;
    }
+   
+   /* ========================
+      FOOTER
+      ======================== */
+   
    .footer {
        background: rgba(0, 0, 0, 0.3);
        padding: 20px;
        margin-top: 50px;
    }
-   /* The switch - the box around the slider */
-.switch {
-    font-size: 17px;
-    position: relative;
-    display: inline-block;
-    width: 3.5em;
-    height: 2em;
-  }
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    inset: 0;
-    border: 2px solid #414141;
-    border-radius: 50px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  }
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 1.4em;
-    width: 1.4em;
-    left: 0.2em;
-    bottom: 0.2em;
-    background-color: white;
-    border-radius: inherit;
-    transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  .switch input:checked + .slider {
-    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
-    border: 2px solid #0974f1;
-  }
-  .switch input:checked + .slider:before {
-    transform: translateX(1.5em);
-  }
+   

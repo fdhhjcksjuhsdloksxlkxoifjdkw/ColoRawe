@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColoRawe</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <label class="switch">
+    <!--<label class="switch">
         <input type="checkbox">
         <span class="slider"></span>
-    </label>
+    </label> -->
     <header class="header">
+        <div class="container">
+        <a href="" class="logo">
+
+        </a>
         <nav class="nav">
             <a href="main" class="nav-link">Main page</a>
             <a href="benefits" class="nav-link">Benefits</a>
@@ -21,69 +26,106 @@
             <a href="reviews" class="nav-link">Reviews</a>
             <a href="contacts" class="nav-link">Contacts</a>
             <a href="order" class="nav-link">Order</a>
-        </nav>
+        </nav> 
+        <div><a href="images/images.Rectangle47.png"></a><a href="images/images.Group37(1)1.png"></a></div>
+    </div>
+        <div>
     </header>
     <main class="main">
         <section class="hero">
             <div class="container hero-container">
-                <img src="images/images.Rectangle47.png" alt="Background" class="hero-background">
-                    <h2 class="hero-subtitle">C&R</h2>
-                    <h1 class="hero-title">ColoRawe</h1>
-                    <p class="hero-text">Your dream Nike</p>
-                    <p class="hero-description">
-                        On this site you can find custom Nike sneakers of your dreams.<br>
-                        The original company can't create such beautiful sneakers as we do.<br>
-                        Good luck finding your way in the world of custom sneakers.
-                    </p>
-                    <button class="hero-button">Buy my Nike</button>
-                </div>
-                <img src="images/images.Group37(1)1.png" alt="Nike Shoe" class="hero-image">
+                <div>
+                    <img src="images/images.Rectangle47.png" alt="Background" class="hero-background">
+                <h3 class="hero-subtitle">C&R</h3>
+            </div>
+                <h1 class="hero-title">ColoRawe</h1>
+                <h2 class="hero-text">Your dream Nike</h2>
+                <p class="hero-description">
+                    On this site you can find custom Nike sneakers of your dreams.<br>
+                    The original company can't create such beautiful sneakers as we do.<br>
+                    Good luck finding your way in the world of custom sneakers.
+                </p>
+                <button class="hero-button">Buy my Nike</button>
+            </div>
+            <img src="images/images.Group37(1)1.png" alt="Nike Shoe" class="hero-image">
         </section>
         <section class="features">
-            <div class="container feature">
+            <div class="container">
+            <ul>
+            <li class="feature">
                 <img src="images/images.Group34.png" alt="Premium Quality" class="feature-image">
                 <h3 class="feature-title premium-quality">Premium Quality</h3>
-            </div>
-            <div class="container feature">
+            </li>
+            <li class="feature">
                 <img src="images/images.Group35.png" alt="Indelible Paint" class="feature-image">
                 <h3 class="feature-title indelible-paint">Indelible paint</h3>
-            </div>
-            <div class="container feature">
+            </li>
+            <li class="feature">
                 <img src="images/images.Group36.png" alt="Fast Shipping" class="feature-image">
                 <h3 class="feature-title indelible-paint">Fast shipping</h3>
-            </div>
+            </li>
+        </ul>
+    </div>
         </section>
         <section class="reviews">
             <div class="container">
-            <h2 class="reviews-title">Reviews</h2>
-            <div class="review">
-                <img src="images/images.Group40.png" alt="User 1" class="review-image">
-                <p class="review-text">Sneakers are very comfortable...</p>
+                <h2 class="reviews-title">Reviews</h2>
+                <ul>
+                <li class="review">
+                    <p class="review-text">Sneakers are very comfortable...</p>
+                    <span></span>
+                    <div class="services-item">
+                    <img class="services-item-img" src="">
+                    <div class="services-item-wrap">
+                        <h4 class="services-item-title"></h4>
+                        <p class="services-item-text">Sneakers are very 
+                            comfortable and well 
+                            painted, nothing has 
+                            worn off in a year.</p>
+                    </div>
+                </div>
+                </li>
+                <li class="review">
+                    <p class="review-text">I'm very happy with this purchase...</p>
+                    <span></span>
+                    <div class="services-item"></div>
+                    <img class="services-item-img" src="">
+                    <div class="services-item-wrap">
+                        <h4 class="services-item-title"></h4>
+                        <p class="services-item-text">I'm very happy with this color scheme.
+                            They match all my clothes.</p>
+                    </div>
+                </div>
+                </li>
+                <li class="review">
+                    <p class="review-text">Just right if you need to go party...</p>
+                    <span></span>
+                    <div class="services-item">
+                    <img class="services-item-img" src="">
+                    <div class="services-item-wrap">
+                        <h4 class="services-item-title"></h4>
+                        <p class="services-item-text">Just right if you need to go to a party.
+                            I use them actively, the paint is super.</p>
+                </li>
+                </div>
             </div>
-            <div  class="review-text">
-                <img src="images/images.Group39.png" alt="User 2" class="review-image">
-                <p class="review-text">I'm very happy with this purchase...</p>
-            </div>
-            <div class="review">
-                <img src="images/images.Group38.png" alt="User 3" class="review-image">
-                <p class="review-text">Just right if you need to go party...</p>
-            </div>
-        </div>
+        </ul>
         </section>
         <section class="order">
             <div class="container">
-            <h2 class="order-title">Order</h2>
-            <form class="order-form">
-                <input type="email" placeholder="Your email" class="order-input">
-                <input type="text" placeholder="Your Country" class="order-input">
-                <input type="text" placeholder="Your City" class="order-input">
-                <input type="text" placeholder="Your Address" class="order-input">
-                <button type="submit" class="order-button">Order my Nike</button>
-            </form>
+                <h2 class="order-title">Order</h2>
+                <form class="order-form">
+                    <input type="email" placeholder=" Write your email" class="order-input">
+                    <input type="text" placeholder="Your Country" class="order-input">
+                    <input type="text" placeholder="Your City" class="order-input">
+                    <input type="text" placeholder="Your Address" class="order-input">
+                    <button type="submit" class="order-button">Order my Nike</button>
+                </form>
         </section>
     </main>
     <footer class="footer">
         <div class="container footer-container"></div>
+    </footer>
 </body>
 
 </html>
