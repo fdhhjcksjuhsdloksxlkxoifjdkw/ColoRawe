@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ColoRawe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100..900&display=swap"rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <!--<label class="switch">
-        <input type="checkbox">
+    <label class="switch">
+        <input type="checkbox" />
         <span class="slider"></span>
-    </label> -->
+    </label>
     <header class="header">
         <div class="container header-container">
             <a href="#" class="logo">
-                <img src="./images/c&r.png" alt="Logo" class="logo-img" />
+                <img src="src/images/logo.png" alt="Logo" class="logo-img" />
             </a>
             <nav class="nav">
                 <ul class="nav-list">
@@ -58,7 +60,7 @@
         <section class="hero">
             <div class="container hero-container">
                 <div>
-                    <img src="./images/c&r.png" alt="Logo" class="logo-img" />
+                    <img src="src/images/logo.png" alt="Logo" class="logo-img" />
                     <h3>C&R</h3>
                 </div>
                 <h1 class="hero-title">ColoRawe</h1>
@@ -76,15 +78,15 @@
             <div class="container">
                 <ul>
                     <li class="feature">
-                        <img src="./images/premium.png" alt="Premium Quality" class="feature-image" />
+                        <img src="src/images/premium.png" alt="Premium Quality" class="feature-image" />
                         <h3 class="feature-title premium-quality">Premium Quality</h3>
                     </li>
                     <li class="feature">
-                        <img src="./images/indelible.png" alt="Indelible Paint" class="feature-image" />
+                        <img src="src/images/indelible.png" alt="Indelible Paint" class="feature-image" />
                         <h3 class="feature-title indelible-paint">Indelible paint</h3>
                     </li>
                     <li class="feature">
-                        <img src="./images/fast.png" alt="Fast Shipping" class="feature-image" />
+                        <img src="src/images/fast.png" alt="Fast Shipping" class="feature-image" />
                         <h3 class="feature-title indelible-paint">Fast shipping</h3>
                     </li>
                 </ul>
@@ -103,7 +105,7 @@
                             <p class="review-date">25.11</p>
                             <div class="review-author">
                                 <div class="author-photo">
-                                    <img src="./images/john.png" alt="John Teylor" />
+                                    <img src="src/images/john.png" alt="John Teylor" />
                                 </div>
                                 <div class="author-meta">
                                     <h3 class="author-name">John Teylor</h3>
@@ -121,7 +123,7 @@
                             <p class="review-date">05.01</p>
                             <div class="review-author">
                                 <div class="author-photo">
-                                    <img src="./images/elizabeth.png" alt="Elizabeth Garsia" />
+                                    <img src="src/images/elizabeth.png" alt="Elizabeth Garsia" />
                                 </div>
                                 <div class="author-meta">
                                     <h3 class="author-name">Elizabeth Garsia</h3>
@@ -139,7 +141,7 @@
                             <p class="review-date">18.06</p>
                             <div class="review-author">
                                 <div class="author-photo">
-                                    <img src="./images/tom.png" alt="Tom Maquare" />
+                                    <img src="src/images/tom.png" alt="Tom Maquare" />
                                 </div>
                                 <div class="author-meta">
                                     <h3 class="author-name">Tom Maquare</h3>
@@ -155,7 +157,10 @@
             <div class="container">
                 <h2 class="order-title">Order</h2>
                 <form class="order-form">
-                    <input type="email" placeholder=" Write your email" class="order-input" />
+                    <div class="order-form-field">
+                        <input type="email" placeholder=" Write your email" class="order-input" />
+                        <button type="button" class="button">Confirm</button>
+                    </div>
                     <input type="text" placeholder="Your Country" class="order-input" />
                     <input type="text" placeholder="Your City" class="order-input" />
                     <input type="text" placeholder="Your Address" class="order-input" />
@@ -166,32 +171,34 @@
     </main>
     <footer class="footer">
         <div class="footer-top">
-          <div class="footer-questions">
-            <p>Have a question?</p>
-            <p>Have a proposal for cooperation?</p>
-            <p>Advertising questions?</p>
-          </div>
-          <div class="footer-emails">
-            <p><a href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></p>
-            <p><a href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></p>
-            <p><a href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a></p>
-          </div>
+            <ul class="footer-questions">
+                <li>Have a question?</li>
+                <li>Have a proposal for cooperation?</li>
+                <li>Advertising questions?</li>
+            </ul>
+            <ul class="footer-emails">
+                <li>
+                    <a href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+                </li>
+                <li>
+                    <a href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+                </li>
+                <li>
+                    <a href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+                </li>
+            </ul>
         </div>
-      
-        <hr />
-      
         <div class="footer-bottom">
-          <div class="footer-copy">
-            <p>2022 ColoRawe @All rights reserved</p>
-            <p>United States</p>
-          </div>
-          <div class="footer-logo">
-            <img src="./images/c&r.png" alt="Logo" />
-            <p>C&amp;R</p>
-          </div>
+            <ul class="footer-copy">
+                <li>2022 ColoRawe @All rights reserved</li>
+                <li>United States</li>
+            </ul>
+            <div class="footer-logo">
+                <img src="src/images/logo.png" alt="Logo" />
+                <p class="footer-text">C&amp;R</p>
+            </div>
         </div>
-      </footer>
-      
+    </footer>
 </body>
 
 </html>
