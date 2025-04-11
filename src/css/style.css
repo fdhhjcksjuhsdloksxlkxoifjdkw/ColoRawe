@@ -32,6 +32,8 @@ img {
   color: white;
   padding: 20px 0;
   text-align: center;
+  margin-right: 90px;
+  border-radius: 1440px;
 }
 .nav-list {
   list-style: none;
@@ -65,13 +67,10 @@ img {
   color: white;
   font-family: 'PT Serif Regylar';
 }
-.main {
-  padding: 20px 0;
-}
 .hero {
   padding: 94px 0 183px;
   color: white;
-  background-image: url(src/images/colorawe.png);
+  background-image: url(../images/colorawe.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -95,7 +94,7 @@ img {
 .hero-button {
   background-color: #8e32c6;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 10px;
   border: none;
   cursor: pointer;
   font-family:'Roboto';
@@ -123,7 +122,7 @@ img {
 .features {
   padding: 40px 0;
   color: white;
-  background-image: url(src/images/fon.png);
+  background-image: url(../images/fon.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -191,11 +190,12 @@ img {
 .reviews {
   padding: 40px 0;
   color: white;
-  background-image: url(src/images/reviews.png)
-                    url(src/images/flowers.png);
+  background-image:  url(../images/flowers.png),
+                     url(../images/reviews.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto,cover;
   font-family: 'Playfair Display Regular';
+  background-position: left bottom,center;
 }
 .review-text {
   margin-bottom: 10px;
@@ -204,10 +204,6 @@ img {
 .review-date{
   font-family:'Roboto';
   color: #D8D8D8
-}
-.review-author {
-  display: flex;
-  min-width: 31px;
 }
 .review-card {
   padding: 20px;
@@ -236,10 +232,19 @@ img {
   background: linear-gradient(135deg, #ffe128, #ff9b5c, #ff8381, #ff5489);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.author-meta{
+.review-author {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
+}
+.author-photo{
+  max-width: 31px;
+}
+.author-meta{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 1px;
 }
 .author-name{
   font-family:'Roboto';
@@ -263,7 +268,7 @@ img {
   padding: 60px 20px;
   text-align: center;
   color: #fff;
-  background-image: url(src/images/older.png);
+  background-image: url(../images/older.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
