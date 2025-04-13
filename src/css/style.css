@@ -189,6 +189,8 @@ img {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 93px;
+  max-width: 951px;
+  margin: 0 auto;
 }
 .div{
   display: block;
@@ -217,13 +219,16 @@ img {
   margin-bottom: 10px;
   font-family: 'Roboto';
   color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 400;
 }
 .review-date{
   font-family:'Roboto';
   color: #D8D8D8;
+  margin-bottom: 47px;
 }
 .review-card {
-  padding: 20px;
+  padding: 50px 10px 30px 20px;
   border-radius: 15px;
   color: white;
   font-size: 16px;
@@ -231,7 +236,7 @@ img {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .review-card2 {
-  padding: 20px;
+  padding: 50px 10px 30px 20px;
   border-radius: 15px;
   color: white;
   font-size: 16px;
@@ -239,7 +244,7 @@ img {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .review-card3 {
-  padding: 20px;
+  padding: 50px 10px 30px 20px;
   border-radius: 15px;
   color: white;
   font-size: 16px;
@@ -258,6 +263,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1px;
+  margin: 30px;
 }
 .author-name{
   font-family:'Roboto';
