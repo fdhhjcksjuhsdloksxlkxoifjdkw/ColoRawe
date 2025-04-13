@@ -74,17 +74,29 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logo-text{
+  font-family: 'PT Serif';
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom:1px;
+}
 .hero-title {
-  font-family: 'Playfair Display Regular';
-  font-size: 3em;
-  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 5em;
+  margin-bottom:1px;
   color: white;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .hero-text {
   font-family: 'Playfair Display Regular';
-  font-size: 1.5em;
-  margin-bottom: 20px;
+  font-size: 3em;
+  margin-bottom: 1px;
   color: white;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom:10px;
 }
 .hero-description {
   line-height: 1.6;
@@ -137,8 +149,8 @@ img {
   align-items: center;
 }
 .feature-image {
-  height: 80px;
   margin-bottom: 10px;
+  font-size: 5em;
 }
 .features ul {
   display: flex;
@@ -159,10 +171,11 @@ img {
   background-color: #a046d3;
 }
 .feature-title {
-  font-size: 18px;
+  font-size:2em;
   font-weight: 500;
-  color: white;
+  color: #FFFFFF;
   font-family: 'Playfair Display Regular';
+  
 }
 .reviews-title {
   text-align: center;
@@ -189,28 +202,31 @@ img {
 }
 .reviews {
   padding: 40px 0;
-  color: white;
+  color: #FFFFFF;
   background-image:  url(../images/flowers.png),
                      url(../images/reviews.png);
   background-repeat: no-repeat;
   background-size: auto,cover;
-  font-family: 'Playfair Display Regular';
+  font-family: 'Playfair Display',serif;
   background-position: left bottom,center;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1.2;
 }
 .review-text {
   margin-bottom: 10px;
   font-family: 'Roboto';
+  color: #FFFFFF;
 }
 .review-date{
   font-family:'Roboto';
-  color: #D8D8D8
+  color: #D8D8D8;
 }
 .review-card {
   padding: 20px;
   border-radius: 15px;
   color: white;
   font-size: 16px;
-  font-weight: bold;
   background: linear-gradient(135deg, #00e5e6, #00a8f7, #9a76f9, #cc5ec2);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -219,7 +235,6 @@ img {
   border-radius: 15px;
   color: white;
   font-size: 16px;
-  font-weight: bold;
   background: linear-gradient(135deg, #ff68b4, #ff45e1, #ce3aff, #8961ff);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -228,7 +243,6 @@ img {
   border-radius: 15px;
   color: white;
   font-size: 16px;
-  font-weight: bold;
   background: linear-gradient(135deg, #ffe128, #ff9b5c, #ff8381, #ff5489);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -243,16 +257,16 @@ img {
 .author-meta{
   display: flex;
   flex-direction: column;
-  
   gap: 1px;
 }
 .author-name{
   font-family:'Roboto';
-  color:#FFFFFF
+  color:#FFFFFF;
+  
 }
 .author-text{
   font-family:'Roboto';
-  color: #D8D8D8
+  color: #D8D8D8;
 }
 .services-item-img {
   height: 80px;
