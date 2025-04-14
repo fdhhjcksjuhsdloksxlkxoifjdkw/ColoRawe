@@ -83,7 +83,7 @@ img {
 }
 .hero-title {
   font-family: 'Playfair Display', serif;
-  font-size: 5em;
+  font-size: 10em;
   margin-bottom:1px;
   color: white;
   font-weight: 400;
@@ -91,7 +91,7 @@ img {
 }
 .hero-text {
   font-family: 'Playfair Display Regular';
-  font-size: 3em;
+  font-size: 5em;
   margin-bottom: 1px;
   color: white;
   font-weight: 400;
@@ -106,10 +106,11 @@ img {
 .hero-button {
   background-color: #8e32c6;
   color: white;
-  padding: 12px 10px;
+  padding: 15px 30px;
   border: none;
   cursor: pointer;
   font-family:'Roboto';
+  border-radius: 12px;
 }
 .hero-image {
   max-width: 40%;
@@ -171,7 +172,7 @@ img {
   background-color: #a046d3;
 }
 .feature-title {
-  font-size:2em;
+  font-size: 4em;
   font-weight: 500;
   color: #FFFFFF;
   font-family: 'Playfair Display Regular';
@@ -198,7 +199,7 @@ img {
 }
 .review {
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   flex-basis: calc((100% - 186px) / 3);
 }
@@ -225,7 +226,6 @@ img {
 .review-date{
   font-family:'Roboto';
   color: #D8D8D8;
-  margin-bottom: 47px;
 }
 .review-card {
   padding: 50px 10px 30px 20px;
@@ -401,9 +401,17 @@ img {
   align-items: center;
   gap: 10px;
   color: white;
+  flex-direction: column;
 }
 .footer-logo img {
-  width: 40px;
+  width: 90px;
   height: auto;
+  
+}
+.footer-text {
+  color: white;
+  font-size: 18px;
+  margin-top: 8px;
+
 }
 
