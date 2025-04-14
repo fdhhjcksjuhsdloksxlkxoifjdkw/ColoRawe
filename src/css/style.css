@@ -199,9 +199,9 @@ img {
 }
 .review {
   margin-bottom: 20px;
-  padding: 10px;
   box-sizing: border-box;
   flex-basis: calc((100% - 186px) / 3);
+  display: flex;
 }
 .reviews {
   padding: 40px 0;
@@ -226,6 +226,7 @@ img {
 .review-date{
   font-family:'Roboto';
   color: #D8D8D8;
+  flex-grow: 1;
 }
 .review-card {
   padding: 50px 10px 30px 20px;
@@ -234,6 +235,8 @@ img {
   font-size: 16px;
   background: linear-gradient(135deg, #00e5e6, #00a8f7, #9a76f9, #cc5ec2);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 .review-card2 {
   padding: 50px 10px 30px 20px;
@@ -242,6 +245,8 @@ img {
   font-size: 16px;
   background: linear-gradient(135deg, #ff68b4, #ff45e1, #ce3aff, #8961ff);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 .review-card3 {
   padding: 50px 10px 30px 20px;
@@ -250,6 +255,8 @@ img {
   font-size: 16px;
   background: linear-gradient(135deg, #ffe128, #ff9b5c, #ff8381, #ff5489);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 .review-author {
   display: flex;
@@ -263,7 +270,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1px;
-  margin: 30px;
 }
 .author-name{
   font-family:'Roboto';
